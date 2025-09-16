@@ -22,7 +22,6 @@ import io.flutter.plugin.common.MethodCall;
 import io.flutter.plugin.common.MethodChannel;
 import io.flutter.plugin.common.MethodChannel.MethodCallHandler;
 import io.flutter.plugin.common.MethodChannel.Result;
-import io.flutter.plugin.common.PluginRegistry.Registrar;
 
 /**
  * ManageCalendarEventsPlugin
@@ -66,11 +65,11 @@ public class ManageCalendarEventsPlugin implements FlutterPlugin, ActivityAware,
     /**
      * Plugin registration.
      */
-    public static void registerWith(Registrar registrar) {
-        Context context = registrar.context();
-        Activity activity = registrar.activity();
-        setup(new ManageCalendarEventsPlugin(), registrar.messenger(), activity, context);
-    }
+//    public static void registerWith(Registrar registrar) {
+//        Context context = registrar.context();
+//        Activity activity = registrar.activity();
+//        setup(new ManageCalendarEventsPlugin(), registrar.messenger(), activity, context);
+//    }
 
 
     @Override
